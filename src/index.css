@@ -33,6 +33,9 @@ ul li:last-child {
 ul li.done {
   text-decoration: line-through;
 }
+ul li.eliminar {
+  text-decoration: none;
+}
 
 input[type=text] {
   box-sizing: border-box;
@@ -42,7 +45,14 @@ input[type=text] {
   padding: 13px;
 }
 
-.error {
-  border-color: #ff0000 !important;
+
+.error{
+  border-color: #ff0000;
 }
+input:invalid{
+  border-color: #ff0000;
+}
+
+
+
 
